@@ -1,5 +1,3 @@
-!pip install beautifulsoup4 requests
-
 import pandas as pd
 from bs4 import BeautifulSoup
 
