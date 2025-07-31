@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Step 1: Make a request to the website
-url = 'https://www.youtube.com/'
+url = 'http://books.toscrape.com/'
 response = requests.get(url)
 html = response.content
 
